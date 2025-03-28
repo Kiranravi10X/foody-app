@@ -9,6 +9,7 @@ import PlaceOrder from "./pages/placeOrder/PlaceOrder";
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
+  console.log("test");
   return (
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
